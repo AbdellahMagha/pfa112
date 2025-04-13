@@ -17,3 +17,7 @@ Route::get('/con', function () {
 Route::get('/rec', function () {
     return view('Recommandation');
 });
+
+Route::get('/login', function () {
+    return view('login');
+});
